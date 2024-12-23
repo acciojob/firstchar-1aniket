@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 
-	let ans=" ";
+	let ans="";
 
 	for(let i=0;i<text.length;i++)
 	{
@@ -17,4 +17,5 @@ function firstChar(text) {
 //Uncomment the following line to show the prompt popup
 const text = prompt("Enter text:");
 alert(firstChar(text));
+
 
